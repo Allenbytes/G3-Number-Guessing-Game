@@ -17,7 +17,6 @@ int main() {
         cout << "4. Multiply\n";
         cout << "Enter the operation number (1-4): ";
         cin >> addType;
-		system("cls");
         if (addType < 1 || addType > 4) {
             cout << "Error: Invalid choice. Please try again.\n";
             
